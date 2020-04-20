@@ -17,13 +17,12 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Data.Sql;
 
-
 namespace GG_Suicide_Iz_Wae.Pages
 {
     /// <summary>
     /// Логика взаимодействия для LoginPage.xaml
     /// </summary>
-    public partial class LoginPage : Window
+    public partial class LoginPage : Page
     {
         string connectionString = ConfigurationManager.ConnectionStrings["SqlCon"].ConnectionString;
 
@@ -84,4 +83,3 @@ namespace GG_Suicide_Iz_Wae.Pages
         }
     }
 }
-

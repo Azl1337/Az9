@@ -16,23 +16,23 @@ using System.Windows.Shapes;
 namespace GG_Suicide_Iz_Wae.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainPage.xaml
+    /// Логика взаимодействия для RegisterAsNewRunnerPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class RegisterAsNewRunnerPage : Page
     {
-        public MainPage()
+        public RegisterAsNewRunnerPage()
         {
             InitializeComponent();
         }
 
-        private void BtnLoginWindow_Click(object sender, RoutedEventArgs e)
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Pages.LoginPage());
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Pages.RegisterAsRunnerPage());
+            NavigationService.GoBack();
         }
     }
 }
