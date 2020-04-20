@@ -9,6 +9,19 @@
       Title="CoordinatorMenuPage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+
+            <RowDefinition Height="*"/>
+
+
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" IsEnabled="False" Padding="100,10,5,10" Style="{DynamicResource text_block}" TextAlignment="Left">
+             <Run FontSize="26"  FontWeight="Bold"  >MARATHON SKILLS 2020</Run>
+        </TextBlock>
+        <Button x:Name="btnBack" Style="{DynamicResource base_button}" Width="80" Height="30" HorizontalAlignment="Left" Grid.Row="0" Margin="10,5,5,5" Content="Назад" Click="BtnBack_Click" />
+
+        <Button x:Name="btnLogin" Style="{DynamicResource base_button}" Width="100" Height="35" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="0" Margin="10" Content="LogOut" Click="btnLogout_Click"  />
+
     </Grid>
 </Page>
