@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG_Suicide_Iz_Wae", "GG_Suicide_Iz_Wae\GG_Suicide_Iz_Wae.csproj", "{868BFD8A-A0C8-40C4-A2BB-B59CC84A2340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{868BFD8A-A0C8-40C4-A2BB-B59CC84A2340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868BFD8A-A0C8-40C4-A2BB-B59CC84A2340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868BFD8A-A0C8-40C4-A2BB-B59CC84A2340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868BFD8A-A0C8-40C4-A2BB-B59CC84A2340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7B8E71C-1EDA-4159-9D70-28B686D1E1FC}
+	EndGlobalSection
+EndGlobal
