@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace GG_Suicide_Iz_Wae.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для RegisterAsNewRunnerPage.xaml
+    /// Логика взаимодействия для RegisterAsRunnerPage.xaml
     /// </summary>
-    public partial class RegisterAsNewRunnerPage : Page
+    public partial class RegisterAsRunnerPage : Page
     {
-        public RegisterAsNewRunnerPage()
+        public RegisterAsRunnerPage()
         {
             InitializeComponent();
         }

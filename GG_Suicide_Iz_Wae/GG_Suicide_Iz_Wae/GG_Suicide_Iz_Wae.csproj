@@ -84,7 +84,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\RegisterAsNewRunnerPage.xaml">
+    <Page Include="Pages\RegisterAsRunnerPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,8 +106,8 @@
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\RegisterAsNewRunnerPage.xaml.cs">
-      <DependentUpon>RegisterAsNewRunnerPage.xaml</DependentUpon>
+    <Compile Include="Pages\RegisterAsRunnerPage.xaml.cs">
+      <DependentUpon>RegisterAsRunnerPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
